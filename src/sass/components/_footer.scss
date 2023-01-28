@@ -1,0 +1,31 @@
+.footer {
+   background-color:#2F303A ;
+   padding: 30px 0;
+}
+.footer__container{
+display: block;
+text-align: center;
+}
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    li{
+    margin-right:25px;
+    &:last-child{
+        margin-right: 0px;
+    }
+    }
+}
+.footer__link{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #FFFF;
+    &:hover,&:focus{
+    fill: var(--active-color);
+    }
+    svg{
+        width: 35px;
+        height: 35px;
+    }
+}

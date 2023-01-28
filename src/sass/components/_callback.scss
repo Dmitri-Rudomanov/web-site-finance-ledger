@@ -1,0 +1,56 @@
+
+.callback__form {
+    display: flex;
+    flex:1 1 50%;
+    flex-direction: column;
+    background: #F4F4F4;
+    padding: 50px 20px 25px 20px;
+}
+.callback__title {
+margin-bottom: 70px;
+font-size: 32px;
+line-height: 48px;
+color: #333333;
+}
+.callback__name {
+padding: 16px 8px;
+background: #FFFFFF;
+border: 1px solid #F5F5F5;
+border-radius: 5px;
+}
+.callback__email {
+margin: 15px 0 24px 0;
+
+}
+.callback__email-input {
+width: 100%;
+padding: 16px 8px;
+background: #FFFFFF;
+border: 1px solid #F5F5F5;
+border-radius: 5px;
+}
+.warning{
+    display: none;
+    color: red;
+
+}
+.succes{
+    display: none;
+    color: var(--active-color);
+}
+.visible{
+    display: flex;
+    align-items: center;
+}
+.callback__button {
+    cursor: pointer;
+    max-width: 155px;
+    color: #FFFFFF;
+    padding: 16px 56px;
+    background: var(--active-color);
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    &:hover{
+        background: #2EBF4F;
+    }
+}

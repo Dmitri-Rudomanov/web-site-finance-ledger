@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link href="..\node_modules\lightbox2\dist\css\lightbox.css" rel="stylesheet" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <include src="./partials/header.html"></include>
+      <main class="page">
+        <include src="./partials/home.html"></include>
+        <include src="./partials/about.html"></include>
+        <include src="./partials/cases.html"></include>
+        <include src="./partials/blog.html"></include>
+        <include src="./partials/team.html"></include>
+        <include src="./partials/contacts.html"></include>
+      </main>
+        <include src="./partials/footer.html"></include>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/header-scroll.js"></script>
+    <script type="module" src="..\node_modules\lightbox2\dist\js\lightbox-plus-jquery.js"></script>
+  </body>
+</html>

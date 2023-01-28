@@ -1,0 +1,22 @@
+
+.blog__container {
+flex-direction: row-reverse;
+padding: 0;
+ max-width: 100%;
+ @media (min-width:768px) {
+  display: flex;
+  max-width: 1360px;
+  }
+}
+
+.blog__text-block {
+    background-color: #0284D0;
+}
+
+.blog__button {
+    &:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #0284D0;
+    color: #0284D0;
+}
+}

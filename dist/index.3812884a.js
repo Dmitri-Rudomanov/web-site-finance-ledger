@@ -1,0 +1,2 @@
+window.onscroll=function(){window.scrollY>=t?e.classList.add("sticky"):e.classList.remove("sticky")};const e=document.getElementById("header");let t=e.offsetHeight;window.onresize=function(){return t=e.offsetHeight,t},document.querySelectorAll('a[href^="#"]').forEach((e=>{e.addEventListener("click",(function(e){e.preventDefault(),scroll({top:document.querySelector(this.getAttribute("href")).offsetTop-t,behavior:"smooth"})}))}));
+//# sourceMappingURL=index.3812884a.js.map
